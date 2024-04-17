@@ -4,7 +4,7 @@ import { logQrCodeProps } from "./main";
 import { responseInterface } from "./main";
 
 const pessoa = new Pessoa("otavio", 19, true);
-pessoa.apresentacao();
+// pessoa.apresentacao();
 
 
 
@@ -59,7 +59,12 @@ const logQrCode: LogQrCode = new LogQrCode(logs);
 const resultLog = logQrCode.showLogs();
 console.log(resultLog);
 
+
 const resultCreate = logQrCode.createLog(log);
 console.log(resultCreate);
+
+const resultLog2 = logQrCode.showLogs();
+console.log(resultLog2);
+
 
 
