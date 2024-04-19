@@ -59,12 +59,12 @@ const logQrCode: LogQrCode = new LogQrCode(logs);
 const resultLog = logQrCode.showLogs();
 console.log(resultLog);
 
-
+/*
 const resultCreate = logQrCode.createLog(log);
 console.log(resultCreate);
 
 const resultLog2 = logQrCode.showLogs();
 console.log(resultLog2);
-
+*/
 
 
